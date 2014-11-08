@@ -1,7 +1,7 @@
 'use strict';
 
 require.config({
-	baseUrl: 'apps/about',
+	baseUrl: '/',
 	paths: {
 		angular: '//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min',
 		angularRoute: '//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.min',
