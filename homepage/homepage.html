@@ -1,0 +1,61 @@
+<header></header>
+<main>
+<div class="container">
+  <div class="row">
+      <div id="intro" class="round_box">
+        <img class="avatar" src="https://media.licdn.com/mpr/mpr/shrink_200_200/p/7/005/048/01d/0521ada.jpg"/>
+        <div class="desc">
+
+          <h1>{{author.name}}</h1>
+          <p>{{author.desc}} 
+            <i>Find me on <a href="{{author.linkedin}}" name="LinkedIn" class="event_social" target="_blank">LinkedIn</a>
+             or <a href="{{author.twitter}}" name="Twitter" class="event_social" target="_blank">Twitter</a></i>
+          </p>
+          <p>
+            
+          </p>
+        </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col_6_w">
+      <div id="exp" class="round_box">
+        <h3 class="title">Experience</h3>
+        <div ng-repeat="exp in experiences">
+          <h3>{{exp.title}}</h3> 
+          <div class="desc">
+            <a href="{{exp.website}}" name="OfferUp" class="event_com" target="_blank"><b>{{exp.company}}</b></a>
+            <br/>{{exp.period}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col_6_w">
+      <div id="edu" class="round_box">
+        <h3 class="title">Education</h3>
+        <div ng-repeat="edu in educations">
+          <h3>{{edu.degree}}</h3> 
+          <div class="desc">
+            <b>{{edu.school}}</b>
+            <br/>{{edu.period}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col_6_w">
+      <div id="cert" class="round_box">
+        <h3 class="title">Certification</h3>
+        <div ng-repeat="cert in certifications">
+          <h3>{{cert.cert}}</h3>
+          <div class="desc">
+            <b>{{cert.school}}</b>
+            <br/>{{cert.period}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer></footer>
+<script src="//about.runbusi.com/static/scripts/track.js"></script>
