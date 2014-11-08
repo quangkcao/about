@@ -6,7 +6,7 @@ define(['angular', 'app'], function(angular, app) {
 		$locationProvider.hashPrefix('!');
 		$routeProvider
 			.when("/",{
-				templateUrl: "apps/about/homepage/homepage.html",
+				templateUrl: "homepage/homepage.html",
 				controller: "MainController",
 				controllerAs: "Ctrl"
 			})

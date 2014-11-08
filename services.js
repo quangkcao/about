@@ -13,7 +13,7 @@ define(['angular'], function (angular) {
 		.factory('settings',function(){
 			return {
 				APP: {
-					PATH: 'apps/about/',
+					PATH: '/',
 					NAME: 'About',
 					SHORT_DESC: '',
 					LONG_DESC: '',
