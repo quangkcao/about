@@ -1,0 +1,14 @@
+{
+  "name": "about",
+  "version": "0.1.0",
+  "authors": [
+    "quangkcao <quangkcao@gmail.com>"
+  ],
+  "description": "",
+  "main": "main.js",
+  "license": "MIT",
+  "homepage": "runbusi.com/about",
+  "private": true,
+  "dependencies": {
+  }
+}
