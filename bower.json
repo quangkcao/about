@@ -10,5 +10,8 @@
   "homepage": "runbusi.com/about",
   "private": true,
   "dependencies": {
+    "requirejs": "~2.1.17",
+    "normalize.css": "~3.0.3",
+    "zeptojs": "~1.1.6"
   }
 }

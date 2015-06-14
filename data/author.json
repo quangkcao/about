@@ -1,12 +1,12 @@
-{ 
-	"author" : 
+{
+	"author" :
 		{
 			"name": "Quang Cao",
 			"desc": "Full-stack engineer delights people with fully interactive and cross-platform websites using latest modern web technology stacks.",
 			"linkedin": "http://goo.gl/kelsy3",
 			"twitter": "http://goo.gl/IyoXoA"
 		},
-	"experiences": [
+	"expertises": [
 		{
 			"company": "OfferUp",
 			"website": "http://goo.gl/MkTLZu",
@@ -17,12 +17,12 @@
 			"website": "http://goo.gl/37rcjE",
 			"title": "Sr. Web Developer",
 			"period": "April  2012 - June 2012"
-		},{	
+		},{
 			"company": "RunBusi",
 			"website": "",
 			"title": "Web Developer/ Designer/ Freelancer",
 			"period": "2009 - July 2012"
-		},{	
+		},{
 			"company": "MSV",
 			"website": "http://goo.gl/zLWfKS",
 			"title": "PHP Developer",
@@ -37,7 +37,7 @@
 			"school": "Hue University",
 			"degree": "BS Computer Science",
 			"period": "2003 - 2007"
-		},{	
+		},{
 			"school": "Shoreline Community College",
 			"degree": "AA Business Administration",
 			"period": "2010 - 2012"

@@ -6,11 +6,11 @@ for(var i=0;i<links.length;i++){
 
 		var cat = this.getAttribute('class');
 		switch(cat){
-			case 'event_social':
-				cat= 'Social Profile';
+			case 'event-social':
+				cat = 'Social Profile';
 				break;
-			case 'event_com':
-				cat= 'Company';
+			case 'event-exp':
+				cat = 'Expertise';
 				break;
 			default:
 				break;

@@ -4,11 +4,24 @@ define(['angular', 'app'], function(angular, app) {
 
 	return app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 		$locationProvider.hashPrefix('!');
+		// var mobileMaxWidth= '479';
+		// console.log($rootScope.windowWidth);
 		$routeProvider
 			.when("/",{
-				templateUrl: "homepage/homepage.html",
-				controller: "MainController",
-				controllerAs: "Ctrl"
+				templateUrl: "about/index.html",
+				controller: "AboutController",
+				controllerAs: "AboutCtrl"
+			})
+			.when("/blog/:date/:title?",{
+				templateUrl: function(params){
+					var page = "blog/index.html";
+					if (params.date && params.title){
+						page = "blog/article/"+params.date+'-'+params.title+'.html';
+					}
+					return page;
+				},
+				controller: "BlogController",
+				controllerAs: "BlogCtrl"
 			})
 		$routeProvider.otherwise({redirectTo: '/'});
 	}]);
