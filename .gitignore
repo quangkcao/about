@@ -1,2 +1,7 @@
 node_modules
-vendors
+vendors/*/test/
+vendors/*/tests/
+vendors/*/demo/
+vendors/*/example/
+vendors/*/example-*/
+vendors/*/examples/
