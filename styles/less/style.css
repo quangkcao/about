@@ -530,13 +530,13 @@ ul.horizontal-boxes > li > a {
   padding: 0 20px;
   font-size: 1.3em;
 }
-#detail-section {
-  display: block;
-}
 #detail-section i[class^='fa fa-'] {
   font-size: 1.6em;
   line-height: 1.6em;
   font-weight: 400;
+}
+#node-container {
+  display: block;
 }
 #node-container .back-btn {
   display: none;
@@ -610,8 +610,5 @@ ul.horizontal-boxes > li > a {
   }
   #social-section {
     text-align: center;
-  }
-  #detail-section {
-    display: none;
   }
 }
