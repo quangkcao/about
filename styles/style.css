@@ -457,12 +457,13 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
+  background-attachment: local;
   color: #4a4a4a;
   margin: 0;
 }
 .container {
   width: 660px;
+  min-height: 550px;
   margin: 0 auto;
 }
 .col-1 {
