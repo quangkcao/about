@@ -3,12 +3,12 @@
 require.config({
 	baseUrl: '/',
 	paths: {
-		angular: '//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min',
-		angularRoute: '//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.min',
-		angularSanitize: '//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-sanitize.min',
-		angularTouch: '//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-touch.min',
-		angularCookies: '//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-cookies.min',
-		angularMocks: '//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-mocks.min',
+		angular: '//ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min',
+		angularRoute: '//ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-route.min',
+		angularSanitize: '//ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-sanitize.min',
+		angularTouch: '//ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-touch.min',
+		angularCookies: '//ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-cookies.min',
+		angularMocks: '//ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-mocks.min',
 	},
 	shim: {
 		'angular' : {'exports' : 'angular'},

@@ -10,22 +10,40 @@ define([], function() {
 			{
 				'id': 'Front-end',
 				'label': '<i class="fa fa-cubes"></i><br/>Front-end',
-				'value': '<ul class="text-left vertical type-none space-none"><li><i class="fa fa-html5"></i> HTML5, Marketing Email, Django Template</li><li><b class="size-large">js</b> Plain javascript, jQuery, custom jQuery plugins, Zepto</li><li><i class="fa fa-css3"></i> CSS, Sprite, Vector icons</li><li><i class="fa fa-gear"></i> Bower, Less, Angularjs, Django-pipeline</li><li><i class="fa fa-line-chart"></i> Search Engine Optimization (SEO)<br/><i class="fa fa-rocket"></i> Web Performance Optimization (WPO)</li></ul>'
+				'value': '<ul class="text-left vertical type-none space-none">\
+										<li><i class="fa fa-html5"></i> HTML5, Marketing Email, Django Template</li>\
+										<li><b class="size-large">js</b> Plain javascript, jQuery, custom jQuery plugins, Zepto</li>\
+										<li><i class="fa fa-css3"></i> CSS, Sprite, Vector icons</li>\
+										<li><i class="fa fa-gear"></i> Bower, Less, Angularjs, Django-pipeline</li>\
+										<li><i class="fa fa-line-chart"></i> Search Engine Optimization (SEO)</li><li><i class="fa fa-rocket"></i> Web Performance Optimization (WPO)</li>\
+									</ul>'
 			},
 			{
 				'id': 'Back-end',
 				'label': '<i class="fa fa-server"></i><br/>Back-end',
-				'value': '<ul class="text-left vertical type-none space-none"><li><b>Python</b><br/>Django framework</li><li class="pad-more-top"><b>Have worked with PHP</b><br/>Yii, <i class="fa fa-joomla"></i> Joomla,  <i class="fa fa-wordpress"></i> Wordpress</li></ul>'
+				'value': '<ul class="text-left vertical type-none space-none">\
+										<li><b>Python</b><br/>Django framework</li>\
+										<li class="pad-more-top"><b>Have worked with PHP</b><br/>Yii, <i class="fa fa-joomla"></i> Joomla,  <i class="fa fa-wordpress"></i> Wordpress</li>\
+									</ul>'
 			},
 			{
 				'id': 'APIs Integration',
 				'label': ' <i class="fa fa-plug"></i><br/>APIs Integration',
-				'value': '<ul class="text-left vertical type-none space-none"><li><i class="fa fa-facebook"></i> Facebook API</li><li><i class="fa fa-google"></i> Google API</li><li><i class="fa fa-support"></i> Zendesk API</li><li><i class="fa fa-envelope-o"></i> Mailgun API</li></ul>'
+				'value': '<ul class="text-left vertical type-none space-none">\
+										<li><i class="fa fa-facebook"></i> Facebook API</li>\
+										<li><i class="fa fa-google"></i> Google API</li>\
+										<li><i class="fa fa-support"></i> Zendesk API</li>\
+										<li><i class="fa fa-envelope-o"></i> Mailgun API</li>\
+									</ul>'
 			},
 			{
 				'id': 'Tools',
 				'label': '<i class="fa fa-code-fork"></i><br/>Tools',
-				'value': '<ul class="text-left vertical type-none space-none"><li><b><i class="fa fa-code-fork"></i> Version Control System</b><br/>Git, Subversion</li><li><b><i class="fa fa-photo"></i> Graphic Editor</b><br/>Photoshop, Firework</li><li><b><i class="fa fa-terminal"></i> IDE</b><br/>Vi/Vim, Pycharm,  Eclipse, NetBeans, Atom</li></ul>'
+				'value': '<ul class="text-left vertical type-none space-none">\
+										<li><b><i class="fa fa-code-fork"></i> Version Control System</b><br/>Git, Subversion</li>\
+										<li><b><i class="fa fa-photo"></i> Graphic Editor</b><br/>Photoshop, Firework</li>\
+										<li><b><i class="fa fa-terminal"></i> IDE</b><br/>Vi/Vim, Pycharm,  Eclipse, NetBeans, Atom</li>\
+									</ul>'
 			},
 			{
 				'id': 'UX',
@@ -35,7 +53,11 @@ define([], function() {
 			{
 				'id': 'UI',
 				'label': '<i class="fa fa-sun-o"></i><br/>User Interface',
-				'value': '<p><b><i class="fa fa-globe"></i> Designs</b><br/>Responsive vs Adaptive/Optimized</p><p><b><i class="fa fa-desktop"></i> <i class="fa fa-laptop"></i> <i class="fa fa-tablet"></i> <i class="fa fa-mobile"></i> Platforms</b><br/> Desktop Web vs Mobile Web.</p><p><b><i class="fa fa-cube"></i> Capabilities</b><br/>Cross-browsers vs Cross-platforms.</p>'
+				'value': '<ul class="text-left vertical type-none space-none">\
+										<li><b><i class="fa fa-globe"></i> Designs</b><br/>Responsive vs Adaptive/Optimized</li>\
+										<li><b><i class="fa fa-desktop"></i> <i class="fa fa-laptop"></i> <i class="fa fa-tablet"></i> <i class="fa fa-mobile"></i> Platforms</b><br/> Desktop Web vs Mobile Web.</li>\
+										<li><b><i class="fa fa-cube"></i> Capabilities</b><br/>Cross-browsers vs Cross-platforms.</li>\
+									</ul>'
 			}
 		];
 		$scope.$apply();
