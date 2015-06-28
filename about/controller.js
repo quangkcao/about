@@ -70,7 +70,6 @@ define([], function() {
 		var moreBtnProfileSection = angular.element(document.getElementById("profile-section").getElementsByClassName('more-btn')[0]);
 		var backBtnNodeContainer = angular.element(document.getElementById("node-container").getElementsByClassName('back-btn')[0]);
 
-
 		var portraitMobileWidth = 480;
 		// if ($window.innerWidth < portraitMobileWidth){
 		moreBtnProfileSection.bind('click', function(e){
@@ -92,12 +91,24 @@ define([], function() {
 				$scope.$apply();
 				detailSection.css({'display': 'block'});
 				nodeContainer.css({ 'display': 'none'});
+
+				//log event
+				ga('send', 'event', 'Expertise', 'Click', 'View ' + this.getAttribute('name'))
 			})
 		})
 		backBtnDetailSection.bind('click', function(e){
 			e.preventDefault();
 			detailSection.css({'display': 'none'});
 			nodeContainer.css({ 'display': 'block'});
+		})
+
+		//log event to social buttons
+		var socialLinks = document.getElementsByClassName("event-social");
+		angular.forEach(socialLinks, function(value, key){
+			var node = angular.element(value);
+			node.bind('click', function(e){
+				ga('send', 'event', 'Social Contact', 'Click', 'View ' + this.getAttribute('name'))
+			})
 		})
 	}]
 })
