@@ -24,7 +24,7 @@
       <div class='item-container-content'>
         <label class='item'>
           Time's Background Color
-          <input id='background_color_picker' type='text' class='item-color item-color-sunny' value='#000000'>
+          <input id='time_background_color_picker' type='text' class='item-color item-color-sunny' value='#000000'>
         </label>
       </div>
       <div class='item-container-footer'>
@@ -39,13 +39,13 @@
   </body>
   <script>
   function getConfigData() {
-    var backgroundColorPicker = document.getElementById('background_color_picker');
+    var backgroundColorPicker = document.getElementById('time_background_color_picker');
     var options = {
-      'background_color': backgroundColorPicker.value
+      'time_background_color': backgroundColorPicker.value
     };
 
     // Save for next launch
-    localStorage['background_color'] = options['background_color'];
+    localStorage['time_background_color'] = options['time_background_color'];
     console.log('Got options: ' + JSON.stringify(options));
     return options;
   }
