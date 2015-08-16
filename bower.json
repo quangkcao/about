@@ -12,6 +12,7 @@
   "dependencies": {
     "requirejs": "~2.1.17",
     "normalize.css": "~3.0.3",
-    "zeptojs": "~1.1.6"
+    "zeptojs": "~1.1.6",
+    "pebble-slate": "~0.0.3"
   }
 }

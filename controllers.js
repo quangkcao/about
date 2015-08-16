@@ -21,4 +21,9 @@ define(['angular', 'services'], function (angular) {
 				$injector.invoke(ctrl, this, {'$scope': $scope});
 			});
 		}])
+		.controller('PebbleWatchFaceController', ['$scope', '$injector', function($scope, $injector){
+			require(['pebble/watchface/controller'], function(ctrl) {
+				$injector.invoke(ctrl, this, {'$scope': $scope});
+			});
+		}])
 });

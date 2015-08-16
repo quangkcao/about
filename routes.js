@@ -23,6 +23,11 @@ define(['angular', 'app'], function(angular, app) {
 				controller: "BlogController",
 				controllerAs: "BlogCtrl"
 			})
+			.when("/pebble/watchface/soso/",{
+				templateUrl: "pebble/watchface/soso/index.html",
+				controller: "PebbleWatchFaceController",
+				controllerAs: "PebbleWatchFaceCtrl"
+			})
 		$routeProvider.otherwise({redirectTo: '/'});
 	}]);
 
