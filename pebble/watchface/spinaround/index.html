@@ -31,11 +31,11 @@
       <div class='item-container-header'>Theme</div>
       <div class='item-container-content'>
         <label class="item">
-          <img src="/images/spinaround-orange.png" width="50" height="auto" name="0" title="Orange" class="theme-select"/>
-        <img src="/images/spinaround-red.png" width="50" height="auto" name="1" title="Red" class="theme-select"/>
-        <img src="/images/spinaround-magenta.png" width="50" height="auto" name="2" title="Magenta" class="theme-select"/>
-        <img src="/images/spinaround-bluemoon.png" width="50" height="auto" name="3" title="BlueMoon" class="theme-select"/>
-        <img src="/images/spinaround-maygreen.png" width="50" height="auto" name="4" title="MayGreen" class="theme-select"/>
+          <img src="/images/spinaround-orange.png" width="50" height="auto" name="Orange" class="theme-select"/>
+        <img src="/images/spinaround-red.png" width="50" height="auto" name="Red" class="theme-select"/>
+        <img src="/images/spinaround-magenta.png" width="50" height="auto" name="Magenta" class="theme-select"/>
+        <img src="/images/spinaround-bluemoon.png" width="50" height="auto" name="BlueMoon" class="theme-select"/>
+        <img src="/images/spinaround-maygreen.png" width="50" height="auto" name="MayGreen" class="theme-select"/>
         </label>
       </div>
       <div class='item-container-footer'>
@@ -60,11 +60,12 @@
   for(var i=0;i<themes.length;i++){
     themes[i].addEventListener('click', function(){
       var selectedTheme = this.getAttribute('name');
-      // ga('send', 'event', 'SpinAround Theme', 'tap', this.getAttribute('title'));
+      // ga('send', 'event', 'SpinAround Theme', 'tap', selectedTheme);
       var options = {
         'color': selectedTheme
       };
       var return_to = getQueryParam('return_to', 'pebblejs://close#');
+      alert(return_to + encodeURIComponent(JSON.stringify(options)));
       document.location = return_to + encodeURIComponent(JSON.stringify(options));
     }, false);
   }
