@@ -65,7 +65,6 @@
         'color': selectedTheme
       };
       var return_to = getQueryParam('return_to', 'pebblejs://close#');
-      alert(return_to + encodeURIComponent(JSON.stringify(options)));
       document.location = return_to + encodeURIComponent(JSON.stringify(options));
     }, false);
   }
